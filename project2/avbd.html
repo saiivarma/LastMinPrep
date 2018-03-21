@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script   src="http://code.jquery.com/jquery-3.3.1.js"   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="   crossorigin="anonymous"> </script>
+	<title>Available Data</title>
+	<link rel="stylesheet" type="text/css" href="avbd.css">
+</head>
+<header>
+	<div class="container">
+		<div id="home">
+			<a href="file:///Users/vsvsvarma/Documents/project2/home.html">Home</a>
+		</div>
+		<div id="avb">
+			<a href="file:///Users/vsvsvarma/Documents/project2/avbd.html">Available data</a>
+		</div>
+		<div id="books">
+			<a href="file:///Users/vsvsvarma/Documents/project2/sgb.html">Suggested Books</a>
+		</div>
+		<div id="faq"><a href="http://localhost:3000">FAQ's</a></div>
+		<div id="contact">
+			contact us
+		</div>
+	</div>
+</header>
+<body>
+	
+	<div id="entry">
+		<form name="form1" onsubmit="myfunction()">
+			
+			<select  name="branch" >
+				<option value="IT">IT</option>
+				<option value="CSE">CSE</option>
+				<option value="ECE">ECE</option>
+			</select><br>
+			<br>
+			<input type="radio" name="year" value="1">
+			<label for="1">1st year</label>
+			<input type="radio" name="year" value="2">
+			<label for="2">2nd year</label><br>
+			<input type="radio" name="year" value="3">
+			<label for="3">3rd year</label>    
+			<input type="radio" name="year" value="4">
+			<label for="4">4th year</label><br><br>
+			<input type="submit" value="Get data">
+		</form>
+
+	</div>
+
+	
+	<script type="text/javascript">
+		function myfunction()
+		{ 	
+			var x=document.forms["form1"]["branch"].value;
+			var y=document.forms["form1"]["year"].value;
+			localStorage.setItem("inp",y);
+			if(x=="IT") {	
+				window.open('file:///Users/vsvsvarma/Documents/project2/it.html');	
+			}
+			else if (x=="CSE") {
+				window.open('file:///Users/vsvsvarma/Documents/project2/cse.html');
+			}
+			else if (x=="ECE") {
+				window.open('file:///Users/vsvsvarma/Documents/project2/ece.html');
+			}
+			
+		}
+		$(document).ready(function(){
+			$("#contact").click(function(){
+				alert("EmailId:12233444");
+			});
+		});
+		
+	</script>
+</body>
+</html>

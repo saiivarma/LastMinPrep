@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FAQ's</title>
+	<link rel="stylesheet" type="text/css" href="page.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+		<div id="head">Frequently Asked Questions</div>
+		<div id="dat2">
+				<% users.forEach(function(user){  %>
+					<li> <%= user.question %>
+						<ul> Regarding: <%= user.key %><br>
+							<br>
+							 <%= user.answer %>
+						</ul> 
+
+					</li><hr>
+			 <% }); %>
+
+
+		</div>
+		<div id="qrb">
+			<form action="/qur" method="POST">
+				<select name="branchq">
+					<option value="IT" >IT</option>
+					<option value="CSE" >Cse</option>
+					<option value="Ece" >Ece</option>
+				</select><br>
+				<button>Submit</button>
+			</form>
+		</div>
+		<div id="ans">Answer</div>
+		<div id="ask">Ask a question</div>
+		<div id="inp">
+			<form action="/varma" method="POST">
+				Select Branch:<select name="branch">
+					<option value="IT" >IT</option>
+					<option value="CSE" >Cse</option>
+					<option value="Ece" >Ece</option>
+				</select><br>
+				Enter keyword: <input type="textarea" name="key" placeholder="Enter in lowercase charecters" ><br>
+				
+				<textarea name="ques" rows="10" cols="10" placeholder="Ask your question here"></textarea><br>
+				
+				<button id="inpBtn">Submit</button>
+			</form>
+		</div>
+		<div id="ansi">
+			<form action="ansInp" method="POST">	
+			Enter keyword: <input type="textarea" name="key" placeholder="Enter in lowercase charecters" ><br>
+				
+				<textarea name="ans" rows="10" cols="10" placeholder="Give Your Answer"></textarea><br>
+				
+				<button id="inpBtn">Submit</button>
+			</form>
+		</div>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+						$("#ansi").hide();
+						$('#inp').hide();
+		$("#head").click(function(){
+					$("#ansi").hide();
+					$("#dat2").show();
+					$('#inp').hide();
+					$('#qrb').show();
+		});
+		$('#ans').click(function(){
+					$("#ansi").show();
+					$("#dat2").hide();
+					$('#inp').hide();
+					$('#qrb').hide();
+		});
+
+		$("#ask").click(function(){
+					$("#dat2").hide();
+					$("#ansi").hide();
+					$('#inp').show();
+					$('#qrb').hide();
+		});
+
+		});
+		
+</script>
+</body>
+</html>

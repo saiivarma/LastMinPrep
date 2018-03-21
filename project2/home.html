@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <script   src="http://code.jquery.com/jquery-3.3.1.js"   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="   crossorigin="anonymous"> </script> 
+	<title>Home Page</title>
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<link src="homep.js">
+</head>
+<header>
+	<div class="container">
+		<div id="home">
+			<a href="file:///Users/vsvsvarma/Documents/project2/home.html">Home</a>
+		</div>
+		<div id="avb">
+			<a href="file:///Users/vsvsvarma/Documents/project2/avbd.html">Available data</a>
+		</div>
+		<div id="books">
+			<a href="file:///Users/vsvsvarma/Documents/project2/sgb.html">Suggested Books</a>
+		</div>
+		<div id="faq"><a href="http://localhost:3000">FAQ's</a></div>
+		<div id="contact">Contact</div>
+		</div>
+
+	</div>
+</header>
+<body>
+	<h1 id="tit">Last Min Prep</h1>
+	
+	<div id="content">
+		Welcome to Last Min prep,
+		Using last min prep you can find the material that is necessary and handy for the last minute preperation.
+	</div>
+	
+	
+	<script type="text/javascript">
+		var x=localStorage.getItem('inp');
+		console.log(x);
+		$(document).ready(function(){
+			$("#content").hide();
+			$("h1").animate({left:'100px'});
+			$("#content").slideDown(7000);
+			$("#contact").click(function(){
+				alert("EmailId: Abcd@gamil.com");
+			});
+		});
+	</script>
+</body>
+</html>

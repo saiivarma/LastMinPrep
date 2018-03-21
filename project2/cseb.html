@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script   src="http://code.jquery.com/jquery-3.3.1.js"   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="   crossorigin="anonymous"> </script>
+	<title>Cse</title>
+	<link rel="stylesheet" type="text/css" href="it.css">
+</head>
+<header>
+	<div class="container">
+		<div id="home">
+			<a href="file:///Users/vsvsvarma/Documents/project2/home.html">Home</a>
+		</div>
+		<div id="avb">
+			<a href="file:///Users/vsvsvarma/Documents/project2/avbd.html">Available data</a>
+		</div>
+		<div id="books">
+			<a href="file:///Users/vsvsvarma/Documents/project2/sgb.html">Suggested Books</a>
+		</div>
+		<div id="contact">
+			Contact us
+		</div>
+	</div>
+
+</header>
+<body>
+	<div>Books</div>
+	<div id="fy">it year 1
+		<div id="b1">
+			
+		</div>
+		<div id="b2">
+			
+		</div>
+		<div id="b3">
+			
+		</div>
+		<div id="b4">
+			
+		</div>
+		<div id="b5">
+			
+		</div>
+		<div id="b6">
+			
+		</div>
+		<div id="b7">
+			
+		</div>
+
+	</div>
+	<div id="sy">it year 2
+		<div id="b1">
+			
+		</div>
+		<div id="b2">
+			
+		</div>
+		<div id="b3">
+			
+		</div>
+		<div id="b4">
+			
+		</div>
+		<div id="b5">
+			
+		</div>
+		<div id="b6">
+			
+		</div>
+		<div id="b7">
+			
+		</div>
+	</div>
+
+	<div id="ty">it year 3
+		<div id="b1">
+			
+		</div>
+		<div id="b2">
+			
+		</div>
+		<div id="b3">
+			
+		</div>
+		<div id="b4">
+			
+		</div>
+		<div id="b5">
+			
+		</div>
+		<div id="b6">
+			
+		</div>
+		<div id="b7">
+			
+		</div>
+	</div>
+
+	<div id="foy">it year 4
+	
+	<div id="b1">
+			
+		</div>
+		<div id="b2">
+			
+		</div>
+		<div id="b3">
+			
+		</div>
+		<div id="b4">
+			
+		</div>
+		<div id="b5">
+			
+		</div>
+		<div id="b6">
+			
+		</div>
+		<div id="b7">
+			
+		</div>
+	</div>
+	
+	
+	<script type="text/javascript">
+		var y=localStorage.getItem('inp');
+		console.log(y);
+		if(y==2){
+			$(document).ready(function(){
+					$("#fy").hide();
+				});
+			$(document).ready(function(){
+					$("#ty").hide();
+				});
+			$(document).ready(function(){
+					$("#foy").hide();
+				});
+		}
+		else if(y==1){
+			$(document).ready(function(){
+					$("#sy").hide();
+				});
+			$(document).ready(function(){
+					$("#ty").hide();
+				});
+			$(document).ready(function(){
+					$("#foy").hide();
+				});
+
+		}
+		else if(y==3){
+			$(document).ready(function(){
+					$("#fy").hide();
+					$("#sy").hide();
+					$("#foy").hide();
+
+			});
+
+		}
+		else if(y==4){
+			$(document).ready(function(){
+					$("#fy").hide();
+					$("#sy").hide();
+					$("#ty").hide();
+
+			});
+			
+		}
+		document.getElementById('hell').setAttribute('href','http://www.google.com');
+		$(document).ready(function(){
+			$("#contact").click(function(){
+				alert("EmailId:12233444");
+			});
+		});
+	</script>
+</body>
+</html>

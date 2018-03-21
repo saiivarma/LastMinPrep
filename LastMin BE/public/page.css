@@ -1,0 +1,119 @@
+body{
+	background-image: url("1.jpg");
+	color: black;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#head{
+	background-color: white;
+	font-size: 30px;
+	color: black;
+	opacity: 0.8;
+	width: 50%;
+	text-align: center;
+	margin-left: 350px;
+	position: fixed;
+	margin-top: 25px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 2px 4px black;
+	border-radius: 25px;
+}
+
+#dat2{
+
+	
+	background-color: white;
+	font-size: 18px;
+	text-align: ;
+	width: 40%;
+	height: 65%;
+	position: fixed;
+	margin-left: 400px;
+	margin-top: 175px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 25px;
+	border-width: 1px;
+	padding-left: 20px;
+	padding-top: 20px;
+	overflow-y: scroll;
+
+
+
+}
+#ask
+{
+	border-style: solid;
+	border-radius: 100px;
+	padding: 20px 20px 20px 20px;
+	width: 7%;
+	text-align: center;
+	background-color: white;
+	opacity: 0.6;
+	border-color: black;
+	margin-top: 300px;
+	margin-left: 170px;
+	position: fixed;
+	box-shadow: 2px 4px black;
+}
+#inp, #ansi
+{
+	margin-left: 450px;
+	margin-top: 250px;
+	position: fixed;
+	width: 80%;
+	height: 80%;
+	color: white;
+
+}
+textarea
+{
+	height: 50%;
+	width: 50%;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: black;
+	font-size: 18px; 
+	margin-top: 20px;
+
+}
+input
+{
+	height: 40%;
+	width: 40%;
+	font-size: 16px;
+	border-color: green;
+	border-style: solid;
+	margin-top: 10px;
+
+}
+#inpBtn
+{
+	width: 40%;
+	margin-top: 15px;
+	margin-left: 80px;
+
+}
+#ans
+{
+	border-style: solid;
+	border-radius: 100px;
+	padding: 20px 20px 20px 20px;
+	width: 7%;
+	text-align: center;
+	background-color: white;
+	opacity: 0.6;
+	border-color: black;
+	margin-top: 380px;
+	margin-left: 170px;
+	position: fixed;
+	box-shadow: 2px 4px black;
+}
+#qrb
+{
+	position: absolute;
+	margin-left: 650px;
+	margin-top: 130px;
+}

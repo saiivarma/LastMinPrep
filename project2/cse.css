@@ -1,0 +1,262 @@
+body
+{
+	background-image: url("sgbg.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: lighten;
+
+
+}
+.container
+{
+	background-color: black;
+	border-radius: 10px;
+	height: 60px;
+	width: 100%;
+	color: white;
+
+}
+
+#home
+{
+	background-color: transparent;
+	color: white;
+	text-decoration-color: white;
+	margin-right: 1208px;
+	position: absolute;
+	width: 70px;
+	margin-left: 0px;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+	padding-bottom: 22px;
+	border-right-style: solid;
+	border-right-color: white;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-webkit-transition: width 3s;
+}
+#avb
+{
+	
+	text-decoration-color: white;
+	margin-right: 1000px;
+	width: 100px;
+	position: absolute;
+	text-align: center;
+	margin-left: 300px;
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	-webkit-transition: width 3s;
+	border-left-color: white;
+	border-right-color: white;
+	border-right-style: solid;
+	border-left-style: solid;
+}
+a
+{
+	text-decoration: none;
+	text-align: center;
+}
+a:visited
+{
+	color: white;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+#books
+{
+	
+	text-decoration-color: white;
+	margin-right: 1200px;
+	width: 120px;
+	position: absolute;
+	margin-left: 600px;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+	padding-bottom: 22px;
+	-webkit-transition: width 3s;
+	border-left-color: white;
+	border-right-color: white;
+	border-right-style: solid;
+	border-left-style: solid;
+}
+#avb:hover, #home:hover
+{
+	width: 125px;
+
+}
+#books:hover
+{
+	width: 150px;
+}
+#contact:hover
+{
+	width: 125px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+#contact
+{
+	
+	text-decoration-color: white;
+	margin-left: 1200px;
+	position: absolute;
+	width: 80px;
+	margin-right: 0px;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+	padding-bottom: 22px;
+	-webkit-transition: width 3s;
+	border-left-color: white;
+	border-right-color: white;
+	border-right-style: solid;
+	border-left-style: solid;
+}
+#faq
+{
+	position: absolute;
+	width: 80px;
+	margin-left: 900px;
+	
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+	padding-bottom: 22px;
+	text-align: center;
+	border-left-color: white;
+	border-right-color: white;
+	border-right-style: solid;
+	border-left-style: solid;
+	
+}
+#fy
+{
+	
+	width: 70%;
+	margin-left: 250px;
+	position: fixed;
+	margin-top: 100px;
+
+}
+#sy
+{
+	
+	width: 70%;
+	margin-left: 250px;
+	position: fixed;
+	margin-top: 100px;
+
+}#ty
+{
+	
+	width: 70%;
+	margin-left: 250px;
+	position: fixed;
+	margin-top: 100px;
+
+}#foy
+{
+	
+	width: 70%;
+	margin-left: 250px;
+	position: fixed;
+	margin-top: 100px;
+
+}
+#b1
+{
+	background-color: white;
+	position: fixed;
+	width: 125px;
+	height: 200px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 2px 4px;
+	opacity: 0.6;
+
+}
+#b2
+{
+	background-color: white;
+	position: fixed;
+	width: 125px;
+	height: 200px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 2px 4px;
+	margin-left: 200px;
+	opacity: 0.6;
+
+}
+#b3
+{
+	background-color: white;
+	position: fixed;
+	width: 125px;
+	height: 200px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 2px 4px;
+	margin-left: 400px;
+	opacity: 0.6;
+}
+#b4
+{
+	background-color: white;
+	position: fixed;
+	width: 125px;
+	height: 200px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 2px 4px;
+	margin-left: 600px;
+	opacity: 0.8;
+	text-align: center;
+}
+#b5
+{
+	background-color: white;
+	position: fixed;
+	width: 125px;
+	height: 200px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 2px 4px;
+	margin-left: 800px;
+	opacity: 0.9;
+	text-align: center;
+}
+#b6
+{
+	background-color: white;
+	position: fixed;
+	width: 125px;
+	height: 200px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 2px 4px;
+	margin-top: 280px;
+	opacity: 0.6;
+}
+#b7
+{
+	background-color: white;
+	position: fixed;
+	width: 125px;
+	height: 200px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 2px 4px;
+	margin-top: 280px;
+	margin-left: 200px;
+	opacity: 0.6;
+}
