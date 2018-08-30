@@ -1,0 +1,56 @@
+body{
+	background-image: url('3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: fixed;
+}
+#menu{
+	background-color: black;
+	height: 60px;
+	width: 95%;
+	margin-left: 25px;
+	border-radius: 10px;
+	opacity: 0.8;
+	position: fixed;
+}
+a{
+	float: left;
+	height: 40px;
+	width: 150px;
+	text-align: center;
+	margin-left: 10%;
+	text-decoration: none;
+	padding-top: 15px;
+	font-size: 18px;
+	opacity: 0.5;
+	color: white;
+	border-style: solid;
+	border-left-color: white;
+}
+#products{
+	float: left;
+	width: 60%;
+	height: 700px;
+	margin-top: 60px;
+}
+#p1 , #p2 , #p3
+{	
+	
+	height: 35%;
+	width: 20%;
+	float: left;
+	margin-left: 8%;
+	margin-top: 50px;
+	border-style: solid;
+	border-color: black;
+}
+#p4 , #p5 , #p6
+{
+	height: 35%;
+	width: 20%;
+	float: left;
+	margin-left: 8%;
+	margin-top: 50px;
+	border-style: solid;
+	border-color: black;	
+}

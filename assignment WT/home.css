@@ -1,0 +1,27 @@
+body{
+	background-image: url('3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#menu{
+	background-color: black;
+	height: 60px;
+	width: 95%;
+	margin-left: 25px;
+	border-radius: 10px;
+	opacity: 0.8;
+}
+a{
+	float: left;
+	height: 40px;
+	width: 150px;
+	text-align: center;
+	margin-left: 10%;
+	text-decoration: none;
+	padding-top: 15px;
+	font-size: 18px;
+	opacity: 0.5;
+	color: white;
+	border-style: solid;
+	border-left-color: white;
+}
