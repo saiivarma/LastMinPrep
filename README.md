@@ -1,6 +1,6 @@
 # LastMinPrep
 Basic Exam Preparation application.
-Built using Node and MongoDB
+Built using NodeJS and MongoDB
 
 Frameworks and packages used:
 
